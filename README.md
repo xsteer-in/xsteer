@@ -2,7 +2,7 @@
 
 **Xsteer** turns your financial statements into a month's money to-do list.
 
-[`Xfina`](https://github.com/sakthipriyan/xfina) answers *"what happened."*
+[`Xfina`](https://github.com/xfina-dev/xfina) answers *"what happened."*
 Xsteer answers *"what should I do this month."*
 
 ```

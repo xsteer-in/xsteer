@@ -9,6 +9,12 @@ opens a dated section below. See [`docs/DEPLOY.md`](docs/DEPLOY.md).
 
 ## [Unreleased]
 
+### Changed
+
+- The repository moved to the `xsteer-in` GitHub organisation. The crate metadata, the
+  docs and the site's Open source links now point there, and to the `xfina-dev`
+  organisation for Xfina and Xfingine.
+
 ## [0.3.0] - 2026-09-13
 
 ### Added
@@ -140,8 +146,8 @@ opens a dated section below. See [`docs/DEPLOY.md`](docs/DEPLOY.md).
   noindex build so a misconfigured workflow costs a deploy rather than the
   domain's search presence.
 
-[Unreleased]: https://github.com/sakthipriyan/xsteer/compare/v0.2.2...HEAD
-[0.2.2]: https://github.com/sakthipriyan/xsteer/compare/v0.2.1...v0.2.2
-[0.2.1]: https://github.com/sakthipriyan/xsteer/compare/v0.2.0...v0.2.1
-[0.2.0]: https://github.com/sakthipriyan/xsteer/compare/v0.1.0...v0.2.0
-[0.1.0]: https://github.com/sakthipriyan/xsteer/releases/tag/v0.1.0
+[Unreleased]: https://github.com/xsteer-in/xsteer/compare/v0.2.2...HEAD
+[0.2.2]: https://github.com/xsteer-in/xsteer/compare/v0.2.1...v0.2.2
+[0.2.1]: https://github.com/xsteer-in/xsteer/compare/v0.2.0...v0.2.1
+[0.2.0]: https://github.com/xsteer-in/xsteer/compare/v0.1.0...v0.2.0
+[0.1.0]: https://github.com/xsteer-in/xsteer/releases/tag/v0.1.0

@@ -59,7 +59,7 @@ function lockedVersion(crate) {
 async function publishedVersion(crate) {
   try {
     const res = await fetch(`https://crates.io/api/v1/crates/${crate}`, {
-      headers: { 'User-Agent': 'xsteer-web build (https://github.com/sakthipriyan/xsteer)' },
+      headers: { 'User-Agent': 'xsteer-web build (https://github.com/xsteer-in/xsteer)' },
       signal: AbortSignal.timeout(5000),
     })
     if (!res.ok) return ''
