@@ -9,6 +9,11 @@ opens a dated section below. See [`docs/DEPLOY.md`](docs/DEPLOY.md).
 
 ## [Unreleased]
 
+### Changed
+
+- The repository moved to the `xsteer-in` GitHub organisation, and the crate metadata
+  now points there.
+
 ## [0.3.0] - 2026-09-13
 
 ### Added
