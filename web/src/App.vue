@@ -46,13 +46,13 @@ const showCommit = computed(() => {
 // `cargo xtask release` writes — so the tag URL is derivable rather than stored.
 const products = computed(() =>
   [
-    { name: 'Xsteer', version, commit: showCommit.value ? commit : null },
-    { name: 'Xfingine', version: __XFINGINE_VERSION__, commit: null },
-    { name: 'Xfina', version: __XFINA_VERSION__, commit: null },
+    { name: 'Xsteer', org: 'xsteer-in', version, commit: showCommit.value ? commit : null },
+    { name: 'Xfingine', org: 'xfina-dev', version: __XFINGINE_VERSION__, commit: null },
+    { name: 'Xfina', org: 'xfina-dev', version: __XFINA_VERSION__, commit: null },
   ]
     .filter((p) => p.version)
     .map((p) => {
-      const repoUrl = `https://github.com/sakthipriyan/${p.name.toLowerCase()}`
+      const repoUrl = `https://github.com/${p.org}/${p.name.toLowerCase()}`
       return {
         ...p,
         repoUrl,
@@ -100,19 +100,19 @@ const projects = [
     name: 'Xsteer',
     tagline: 'Open source personal finance OS',
     body: 'This project. Turns a parsed vault into an ordered, dated plan for the month, and gives you the interface to execute it against.',
-    href: 'https://github.com/sakthipriyan/xsteer',
+    href: 'https://github.com/xsteer-in/xsteer',
   },
   {
     name: 'Xfingine',
     tagline: 'Open source financial engine',
     body: 'Pure computation engines for personal finance planning — inflation-adjusted EMI schedules and more. A Rust core, published to crates.io, npm and PyPI.',
-    href: 'https://github.com/sakthipriyan/xfingine',
+    href: 'https://github.com/xfina-dev/xfingine',
   },
   {
     name: 'Xfina',
     tagline: 'Open source data parser',
     body: 'Reads Indian bank, credit card, mutual fund and brokerage statements into structured data. Rust compiled to WebAssembly, so parsing happens on your machine.',
-    href: 'https://github.com/sakthipriyan/xfina',
+    href: 'https://github.com/xfina-dev/xfina',
   },
 ]
 </script>
@@ -193,14 +193,14 @@ const projects = [
 
         <div class="mt-10 flex flex-wrap gap-3">
           <a
-            href="https://github.com/sakthipriyan/xsteer"
+            href="https://github.com/xsteer-in/xsteer"
             rel="noopener"
             class="rounded-lg bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground transition-opacity hover:opacity-90"
           >
             Follow on GitHub
           </a>
           <a
-            href="https://github.com/sakthipriyan/xsteer/blob/main/docs/DESIGN.md"
+            href="https://github.com/xsteer-in/xsteer/blob/main/docs/DESIGN.md"
             rel="noopener"
             class="rounded-lg border px-5 py-2.5 text-sm font-semibold transition-colors hover:bg-muted"
           >

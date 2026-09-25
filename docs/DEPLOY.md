@@ -142,8 +142,8 @@ right-hand side of any Cloudflare dashboard page.
 ### 4. Add the GitHub secrets
 
 ```bash
-gh secret set CLOUDFLARE_API_TOKEN  --repo sakthipriyan/xsteer
-gh secret set CLOUDFLARE_ACCOUNT_ID --repo sakthipriyan/xsteer
+gh secret set CLOUDFLARE_API_TOKEN  --repo xsteer-in/xsteer
+gh secret set CLOUDFLARE_ACCOUNT_ID --repo xsteer-in/xsteer
 ```
 
 ### 5. First deploy
